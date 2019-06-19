@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+<head>
+	<title> Formulario JQ- SML </title> <!--Titulo-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0"> 
+	<link rel="stylesheet" type="text/css" href="css/Formulario.css">  <!--rel(describe la relación que mantiene el documento de destino con el documento presente, llamo a la hoja de estilo)-->
+	<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script><!--Implemento Jquery-->
+	<link rel="stylesheet" href="jqueryui/jquery-ui.min.css"><!--Implementado jqueryui-->
+	<script src="jqueryui/jquery-ui.js"></script>
+  	<script src="jqueryui/jquery-ui.min.js"></script>
+	<script src="js/validacionJQ.js" language="javascript" type="text/javascript"></script> <!--Validación JQ-->
+</head>
+
+<body>
+	<div id="master"> <!--id define un identificador único-->
+		<div id="header"> <!--id define un identificador único-->
+			<div id="carrito2"> <!--id define un identificador único-->
+				<a href="Carrito.html"> <img src="img/carrito.png" id="carrito"> </a> <!-- href indica el recurso que se quiere enlazar. Img colocacion de imagen. id, un identificador-->
+			</div> <!--Cierro bloque de contenido-->
+
+			<div> <!--Abro bloque de contenido-->
+			  <a href="Index.html"><img src="img/logo.png" id="logo"/></a> <!--Coloco imagen-->
+			</div> <!--Cierro bloque de contenido-->
+			
+			<div id="buscar" class="ui-widget"> <!--Bloque de contenido con identificador y clase-->
+					<input type="text" placeholder="Buscar" id="tags" class="ui-autocomplete-input" autocomplete="off"> <!-- crea controles interactivos para formularios basados en la web-->
+					<button type="submit"> Buscar</button> <!--Boton buscar-->
+			</div> <!--Cierro bloque de contenido-->
+		</div><!--Cierro bloque de contenido-->
+	</div><!--Cierro bloque de contenido-->
+	
+		<header>																	<!--Provee informacion introductoria-->
+			<nav class="navegacion"> 												<!--Menu de navegacion-->
+				<ul class="menu">  													<!--Lista no odenada-->
+					<li><a href="Index.html" class="navs">Inicio</a></li>	<!--Llamo a productos, inicio-->
+					<li><a href="Productos.html" class="navs">Productos</a></li>	
+						<li>
+						<div class="menuCon">
+							<a class="navs">Contacto</a>
+							<div class="menuDes">
+							 	<a href="Formulario.html" class="formu">Formulario con JQ</a>
+								<a href="FormularioJS.html" class="formu">Formulario con JS</a>
+							</div>
+						</div>
+					</li>		
+					<li><a href="carrito.html" class="navs">Carrito</a></li>					<!--Llamo a carrito, inicio-->
+				</ul> <!--Cierre de lista no ordenada-->
+			</nav> <!--Cierre de menu de navegacion-->
+		</header> 	<!--Cierre de informacion introductoria-->
+	
+	<div class="contenido"> <!-- Comienza contenedor secundario -->
+    <aside> <!-- Comienza barra lateral -->
+        <h2><center><b>SML Watches</b></center></h2><br>
+		Av.Santa Fe 1500,Capital Federal.<br />
+        <a href="mailto:info@unlam.edu.ar">SMLWatches@hotmail.com</a><br><br>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1922353834466!2d-58.377413884872354!3d-34.599300180460574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacba03b1bab%3A0xe4e94946802c21ab!2sStyle+Watch!5e0!3m2!1ses-419!2sar!4v1530292230671" width="265" height="525" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </aside> <!-- Termina barra lateral -->
+	
+	<section>
+		<form id="contact">
+					<center><u><b>FORMULARIO</b></u> <u><b>DE</b></u> <u><b>CONTACTO</b></u></center><br>
+			<p id="titulosformulario"><i><b>Nombre y apellido:</i></b></p> <input type="text" placeholder="Nombre y apellido"  id="Nombre" required><br><br>
+			<div id="mensaje1" class="errores">Por favor ingrese su nombre y apellido.<br>Debe tener más de 10 caracteres.</div>
+			
+			<p id="titulosformulario"><i><b>Email:</i></b></p> <input type="email" name="Email" placeholder="usuario@dominio.com"  id="Email" required><br><br>
+			<div id="mensaje2" class="errores">La dirección de e-mail es obligatoria.<br></div>
+			
+			<p id="titulosformulario"><i><b>Fecha de nacimiento:</i></b></p> <input type="text" placeholder="30/06/2018" id="fecha" required ><br><br>
+			<div id="mensaje4" class="errores">La dirección de e-mail es obligatoria.<br></div>
+			
+			<p id="titulosformulario"><i><b>DNI:</i></b></p> <input type="text" name="dni" placeholder="39625638"  id="Dni" required><br><br>
+			<div id="mensaje3" class="errores">El DNI es obligatorio<br></div>
+
+				<br>
+				
+			<input type="checkbox" name="checkBox" id="checkBox" value="acepto" required> He leido y acepto los <a href="#"> terminos y condiciones </a> <br><br>
+			
+			<center><input id="boton" type="submit" value="Enviar"/> </center> <br><br>
+		
+		</form>
+		</section>
+		</div>
+		</div>
+</div>
+
+<div id=""> <!--Bajo footer-->
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br><br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+</div>
+
+
+
+	
+<link  rel="stylesheet" href="css/footer.css"><!--rel(describe la relación que mantiene el documento de destino con el documento presente, llamo a la hoja de estilo)-->
+<footer> <!--Pie de pagina-->
+
+	<div class="container-footer-all">
+		<div class="container-body">
+			<div class="colum1">
+				<h1><i><center>Información de la compañía</center></i></h1><!--Center para centrar el titulo "Contacto" en su respectiva columna -->
+				<p> El accesorio ideal para tu estilo. Encontrá el que mejor se adapte a tu personalidad.
+					Comprá online los mejores relojes para hombre y mujer de las marcas más prestigiosas 
+					y recibilo en casa. Sólo en SML Watches.
+				</p>
+			</div>	
+		
+			<div class="colum2">
+				<h1><i><center>Redes sociales</center></i></h1><!--Center para centrar el titulo "Contacto" en su respectiva columna -->
+					<div class="row">
+						<a href="https://www.facebook.com/" target="blank"><img src="img/fb.jpg"></a>
+						<label>Facebook</label>
+					</div>
+						
+					<div class="row">
+						<a href="https://twitter.com/" target="blank"><img src="img/tw.png"></a>
+						<label>Twitter</label>	
+					</div>
+						
+					<div class="row">
+						<a href="https://www.instagram.com/?hl=es-la" target="blank"><img src="img/insta.jpg"></a>
+						<label>Instagram</label>
+					</div>
+			</div>
+						
+			<div class="colum3">
+				<h1><i><center>Contactos</center></i></h1> <!--Center para centrar el titulo "Contacto" en su respectiva columna -->
+					<div class="row2">
+						<img src="img/ubi.png">
+						<label> SML watches se encuentra ubicado en Av.Santa Fe 1500,Capital Federal.  </label>
+					</div>
+						
+				<div class="row2">
+						<img src="img/tel.png">
+						<label> +54 9 11 4063 9690  </label>
+				</div>
+						
+				<div class="row2">
+						<img src="img/mail.png">
+						<label>SMLWatches@hotmail.com</label>
+				</div>
+			</div>
+	
+		</div>	
+		</div>	
+		
+		<div class="container-footer">
+				<div class="footer">
+					<div class="copyright">
+						©2018 Todos los derechos reservados |  Julieta Iracheta 
+					</div>
+				</div>
+		</div>
+		</div>
+</footer>			
+	
+	</body>
+</html>

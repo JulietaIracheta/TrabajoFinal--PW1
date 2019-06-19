@@ -1,0 +1,162 @@
+﻿<!Doctype html> <!--Declaracion del tipo de documento-->
+<html>
+	<head> <!--Define el inicio del encabezado-->
+		<title> SML Watches </title> <!--Titulo-->
+			<meta charset="utf-8"> <!--formato de codificación de caracteres-->
+			<meta name="viewport" content="width=device-width,initial-scale=1.0"> <!--Para que pueda verse correctamente en dispositivos moviles-->
+			<meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">  <!--Responsive-->
+			<link  rel="stylesheet" href="css/estilo.css"> <!--Llamo a la hoja de estilo-->
+			<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script><!--Implemento Jquery-->
+			<link rel="stylesheet" href="jqueryui/jquery-ui.min.css"><!--Implementado jqueryui-->
+			<script src="jqueryui/jquery-ui.js"></script>
+			<script src="jqueryui/jquery-ui.min.js"></script>	
+			<script src="js/IndexScript.js" language="javascript" type="text/javascript"></script>
+	</head>
+	
+	<body> <!--Define inicio del cuero-->
+	<div id="master"> <!--id define un identificador único-->
+		<div id="header"> <!--id define un identificador único-->
+			<div id="carrito2"> <!--id define un identificador único-->
+				<a href="Carrito.html"> <img src="img/carrito.png" id="carrito"> </a> <!-- href indica el recurso que se quiere enlazar. Img colocacion de imagen. id, un identificador-->
+				<input type="text"  value="0" id="cuenta"  class="CantidadC"  readonly="readonly"/>
+			</div> <!--Cierro bloque de contenido-->
+
+			<div> <!--Abro bloque de contenido-->
+			 <a href="Index.html"><img src="img/logo.png" id="logo"/></a> <!--Coloco imagen-->
+			</div> <!--Cierro bloque de contenido-->
+			
+			<div id="buscar" class="ui-widget"> <!--Bloque de contenido con identificador y clase-->
+					<input type="text" placeholder="Buscar" id="tags" class="ui-autocomplete-input" autocomplete="off"> <!-- crea controles interactivos para formularios basados en la web-->
+					<button type="submit"> Buscar</button> <!--Boton buscar-->
+			</div> <!--Cierro bloque de contenido-->
+		</div><!--Cierro bloque de contenido-->
+	</div><!--Cierro bloque de contenido-->
+	
+		<header>																	<!--Provee informacion introductoria-->
+			<nav class="navegacion"> 												<!--Menu de navegacion-->
+				<ul class="menu">  													<!--Lista no odenada-->
+					<li><a href="Productos.html" class="navs">Productos</a></li>	<!--Llamo a productos, inicio-->
+						<li>
+						<div class="menuCon">
+							<a class="navs">Contacto</a>
+							<div class="menuDes">
+							 	<a href="Formulario.html" class="formu">Formulario con JQ</a>
+								<a href="FormularioJS.html" class="formu">Formulario con JS</a>
+							</div>
+						</div>
+					</li>		
+					<li><a href="carrito.html" class="navs">Carrito</a></li>					<!--Llamo a carrito, inicio-->
+				</ul> <!--Cierre de lista no ordenada-->
+			</nav> <!--Cierre de menu de navegacion-->
+		</header> 	<!--Cierre de informacion introductoria-->
+	
+			<div class="slider"> 	<!--Bloque de contenido. Slider con sus respectivas imagenes-->
+				<ul> <!--Lista no ordenada-->
+					<li><img src="img/Slider/slider1.png"></li> <!--Imagen-->
+					<li><img src="img/Slider/slider2.png"></li> <!--Imagen-->
+					<li><img src="img/Slider/slider3.png"></li> <!--Imagen-->
+					<li><img src="img/Slider/slider4.png"></li> <!--Imagen-->
+				</ul> <!--Cierre de lista no ordenada-->
+			</div> <!--Cierre de bloque de contenido-->
+			
+		<div id="titulop"> <!--Subtitulo NUESTROS PRODUCTOS, bloque de contenido-->
+			<center>ALGUNOS DE NUESTROS PRODUCTOS</center>  <!--Subtitulo, centrado-->
+		</div> <!--Cierre de bloque de contenido-->		
+
+		<div id="productosIndex"> <!--Productos con sus respectivos precios, bloque de contenido (div), id(identificador unico).-->
+			<div class="boox uno"><img src="img/relojes/rm10.jpg"><p>One Saez<br><br>$5999</p>
+					<a id="botonCarrito1" href="Carrito.html"></a>
+					<input type="button" value="Añadir al Carrito" class="carrito" >
+			</div>
+
+			
+			<div class="boox dos"><img src="img/relojes/rm5.jpg"><p>One Saez<br><br>$3589</p>
+					<a id="botonCarrito2" href="Carrito.html"></a>
+					<input type="button" value="Añadir al Carrito" class="carrito" >
+			</div>		
+						
+
+			<div class="boox tres"><img src="img/relojes/rm8.jpg"><p>One Saez<br><br>$9299</p>
+					<a id="botonCarrito3" href="Carrito.html"></a>
+					<input type="button" value="Añadir al Carrito" class="carrito" >
+			</div>
+		</div>		   <!--Cierro bloque de contenido-->
+		
+				<!--Salto de linea para bajar el footer-->		
+<div class="a"> <!--Bloque de contenido vacio, clase a-->
+   
+   
+   
+   
+</div> 			<!--Cierro el bloque de contenido-->
+<div class="b"> <!--Abro bloque de contenido vacio, clase b-->
+   
+  
+  
+</div>			<!--Cierro bloque de contenido-->
+
+			
+			
+<link  rel="stylesheet" href="css/footer.css"><!--rel(describe la relación que mantiene el documento de destino con el documento presente, llamo a la hoja de estilo)-->
+<footer> <!--Pie de pagina-->
+
+	<div class="container-footer-all">
+		<div class="container-body">
+			<div class="colum1">
+				<h1><i><center>Información de la compañía</center></i></h1><!--Center para centrar el titulo "Contacto" en su respectiva columna -->
+				<p> El accesorio ideal para tu estilo. Encontrá el que mejor se adapte a tu personalidad.
+					Comprá online los mejores relojes para hombre y mujer de las marcas más prestigiosas 
+					y recibilo en casa. Sólo en SML Watches.
+				</p>
+			</div>	
+		
+			<div class="colum2">
+				<h1><i><center>Redes sociales</center></i></h1><!--Center para centrar el titulo "Contacto" en su respectiva columna -->
+					<div class="row">
+						<a href="https://www.facebook.com/" target="blank"><img src="img/fb.jpg"></a>
+						<label>Facebook</label>
+					</div>
+						
+					<div class="row">
+						<a href="https://twitter.com/" target="blank"><img src="img/tw.png"></a>
+						<label>Twitter</label>	
+					</div>
+						
+					<div class="row">
+						<a href="https://www.instagram.com/?hl=es-la" target="blank"><img src="img/insta.jpg"></a>
+						<label>Instagram</label>
+					</div>
+			</div>
+						
+			<div class="colum3">
+				<h1><i><center>Contactos</center></i></h1> <!--Center para centrar el titulo "Contacto" en su respectiva columna -->
+					<div class="row2">
+						<img src="img/ubi.png">
+						<label> SML watches se encuentra ubicado en Av.Santa Fe 1500,Capital Federal.  </label>
+					</div>
+						
+				<div class="row2">
+						<img src="img/tel.png">
+						<label> +54 9 11 4063 9690  </label>
+				</div>
+						
+				<div class="row2">
+						<img src="img/mail.png">
+						<label>SMLWatches@hotmail.com</label>
+				</div>
+			</div>
+	
+		</div>	
+		</div>	
+		
+		<div class="container-footer">
+				<div class="footer">
+					<div class="copyright">
+						©2018 Todos los derechos reservados |  Julieta Iracheta 
+					</div>
+				</div>
+		</div>
+		</div>
+</footer>			
+	</body>
+</html>
